@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, Kubernetes！I'm from Jenkins CI！\n")
+	fmt.Println("Hello, Kubernetes！I'm from Jenkins CI！")
 }
