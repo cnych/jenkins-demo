@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: jenkins-demo
-  namespace: kube-ops
+  namespace: default
 spec:
   template:
     metadata:
@@ -13,3 +13,6 @@ spec:
       - image: cnych/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
+        env:
+        - name: branch
+          value: <BRANCH_NAME>
