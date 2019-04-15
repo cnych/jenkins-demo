@@ -13,6 +13,3 @@ spec:
       - image: cnych/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
-        env:
-        - name: branch
-          value: <BRANCH_NAME>
