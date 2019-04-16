@@ -15,4 +15,4 @@ spec:
         name: jenkins-demo
         env:
         - name: branch
-          value: <BRANCH_NAME>
+          value: <BRANCH>
