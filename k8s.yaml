@@ -13,9 +13,9 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: cnych/jenkins-demo:<BUILD_TAG>
+      - image: nanfeng/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
         - name: branch
-          value: <BRANCH_NAME>
+          value: <BRANCH>
