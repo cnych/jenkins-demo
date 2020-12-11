@@ -12,7 +12,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: cnych/jenkins-demo:<BUILD_TAG>
+      - image: 172.16.3.188:32596/zqm/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
