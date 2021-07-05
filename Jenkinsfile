@@ -11,6 +11,7 @@ node('haimaxy-jnlp') {
     }
     stage('Test') {
       echo "2.Test Stage"
+      echo "hahaha"
     }
     stage('Build') {
         echo "3.Build Docker Image Stage"
