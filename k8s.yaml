@@ -13,7 +13,8 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: cnych/jenkins-demo:<BUILD_TAG>
+  //    - image: cnych/jenkins-demo:<BUILD_TAG>
+      - image: sunhongyan384260966/jenkins-dome:v3        
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
